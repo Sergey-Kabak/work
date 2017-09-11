@@ -1,0 +1,25 @@
+input {
+	width: 278px;
+	height: 26px;
+	margin: 5px 0;
+	border-radius: 2px;
+	border: 1px solid #d9d9d9;
+	border-top: 1px solid #a9a9a9;
+	background-color: #fff;
+	padding-left: 10px;
+}
+input:focus {
+	border: 1px solid #d9d9d9;
+	border-top: 1px solid #a9a9a9;
+	outline: none;
+}
+input:focus:invalid {
+	border: 2px solid #c44741;
+	background-color: #fff0f0;
+	-webkit-box-shadow: 0 0 0;
+	box-shadow: 0 0 0;
+}
+.main_contant__calentdar_input input:focus{
+	border: 1px solid #d9d9d9;
+	border-top: 1px solid #a9a9a9;
+}

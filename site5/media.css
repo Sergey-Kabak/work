@@ -1,0 +1,122 @@
+/* monitors and laptops */
+@media only screen and (max-width: 921px)	{
+	.display1, .display2, .display3{
+		margin-left: 165px;
+	}
+}
+@media only screen and (max-width: 690px) {
+	.main_contant__inner_input input{
+		margin-left: 25px !important;
+	}
+	.main_contant__radio_wrap{
+		margin-left: -40px;
+	}
+	.main_contant__inner_input{
+		margin-bottom: 0 !important;
+	}
+	.display1, .display2, .display3{
+		margin-left: 25px;
+	}
+}
+@media only screen and (max-width: 676px) {
+	.main_contant__checkbox_wrap ul:nth-child(3) {
+		margin: 10px 0 45px 0 !important;
+		clear: both !important;
+	}
+}
+@media only screen and (max-width: 660px) {
+	.main_contant__list_of_lessons a{
+		float: none !important;
+		display: block;
+	}
+}
+@media only screen and (max-width: 623px) {
+	.main_contant__checkbox_wrap ul {
+		width: 100% !important;
+	}
+	.main_contant__checkbox_wrap ul:nth-child(2) {
+		clear: both !important;
+		margin-top: 10px !important;
+	}
+}
+@media only screen and (max-width: 570px) {
+	.main_contant__default_setting a{
+		float: none !important;
+	}
+}
+@media only screen and (max-width: 527px) {
+	.header__contant button{
+		float: none !important;
+	}
+	.main_contant__checkbox_wrap ul:nth-child(1) {
+		clear: both !important;
+	}
+}
+@media only screen and (max-width: 564px) {
+	.main_contant__radio_wrap{
+		display: block !important;
+		margin: 0 0 10px 25px !important;
+	}
+}
+@media only screen and (max-width: 330px) {
+	.header__contant h1{
+		margin-right: 0 !important;
+	}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-device-width : 768px) and (orientation : portrait) {
+	/**/
+	.navigation {
+		width: 100% !important;
+	}
+	.main_contant {
+		width: 100% !important;
+	}
+	.main_contant__checkbox_wrap {
+		width: 90% !important;
+	}
+	.main_contant__color_line{
+		width: 90% !important;
+	}
+	.main_contant__circle_wrap{
+		padding-bottom: 50px;
+		background-repeat: no-repeat;
+	}
+	input[type=radio]:checked + label:before {
+    content: "\2022";
+    color: #000;
+    -webkit-box-shadow: 0 1px 2px #ccc inset;
+    box-shadow: 0 -1px 2px #ccc inset;
+    font-size: 28px !important;
+    text-align: center;
+    line-height: 1px !important;
+    max-width: 0px;
+	}
+	.navigation {
+		width: 100% !important;
+	}
+	.navigatin__buttons button {
+		margin-right: 80% !important;
+	}
+	.list_of_students a {
+		text-overflow: ellipsis !important;
+		width: 100% !important;
+	}
+	.list_of_students:before{
+		display: none !important;
+}
+	.list_of_students:after{
+		display: none !important;
+}
+	.active_name:before{
+		display: none !important;
+}
+	.active_name:after{
+		display: none !important;
+}
+	.main_contant__radio_wrap{
+		margin-left: -1px !important;
+	}
+}

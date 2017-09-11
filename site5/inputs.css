@@ -1,0 +1,79 @@
+label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 20px;
+	margin-right: 15px;
+	font-size: 14px;
+	font-family: "PT Sans",sans-serif;
+}
+input[type=radio] {
+	display: none;
+}
+label:before {
+	content: "";
+	display: inline-block;
+
+	width: 14px;
+	height: 14px;
+
+	margin-right: 10px;
+	position: absolute;
+	left: 0;
+	bottom: 2px;
+	background-color: #fff;
+	background: linear-gradient(to bottom , #fcfcfc 40%, #d3d3d3);
+	border: 1px solid #d3d3d3;
+}
+.main_contant__radio_wrap label:before {
+	border-radius: 100%;
+}
+input[type=radio]:checked + label:before {
+    content: "\2022";
+    color: #000;
+    -webkit-box-shadow: 0 1px 2px #ccc inset;
+    box-shadow: 0 -1px 2px #ccc inset;
+    font-size: 30px;
+    text-align: center;
+    line-height: 9px !important;
+    max-width: 14px;
+}
+
+
+
+[id^=c]{
+    display: none;
+}
+[id^=c] + label{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #d9d9d9;
+    background: linear-gradient(to bottom , #fcfcfc 20%, #d3d3d3);
+    border-radius: 2px;
+    text-align: center;   
+    position: relative;
+    bottom: -1px;
+}
+[id^=c] + label:before{
+    content: '';    
+    position: absolute; top: 2px; left: 1px;
+    width: 10px;
+    height: 8px;
+    padding: 0px;
+    margin: 0;
+    background: #000;
+		border: none;
+    -webkit-clip-path: polygon(45% 64%, 84% 14%, 100% 28%, 47% 100%, 0 49%, 15% 32%);
+    clip-path: polygon(45% 64%, 84% 14%, 100% 28%, 47% 100%, 0 49%, 15% 32%);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: transform .3s;
+    transition: transform .3s;
+}
+[id^=c]:checked + label:before{    
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
